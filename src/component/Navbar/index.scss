@@ -1,0 +1,30 @@
+.navBar-container{
+    margin: 0 auto;
+    width: 100%;
+    // .profile-row{
+    //     // position: fixed;
+    //     right: 10px;
+    //     .logo-img-div{
+    //         .logo-img{
+    //             font-size: 40px;
+    //         }
+    //         .logo-title-div{
+
+    //         }
+    //     }
+    // }
+    .navBar-list{
+        color: white;
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                padding: 10px;
+            }
+            li:hover{
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}

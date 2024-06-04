@@ -1,0 +1,42 @@
+.addSlip-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top:10%;
+    left:25%;
+    z-index: 40;
+    width: 50%;
+    height: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100%;
+    background-color: #ffc107;
+    backdrop-filter: blur(5px);
+    color: white;
+    padding: 10px;
+    .close-btn{
+        position: absolute; 
+        top:1dvh;
+        right: 3dvh;
+        color: rgb(156 163 175);
+        background: transparent;
+        border: none;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        width: 2rem;
+        height: 2rem;
+        margin-left: auto;     
+    }
+
+    .close-btn:hover{
+        background-color: rgb(229 231 235);
+        color: rgb(17 24 39);;
+        // background-color: rgb(75 85 99);
+        background-color: rgba(234, 58, 58, 0.903);
+        color: white;
+    }
+}

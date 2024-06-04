@@ -1,0 +1,26 @@
+.sidebar-container{
+    padding: 0;
+    margin: 0 0;
+    .sidebar-row{
+        
+        // .sidebar-col{
+            // margin-top: 0;
+            // padding: 0;
+            ul{
+                padding: 0;
+                li{
+                    margin-left: 5px;
+                    list-style: none;
+                    padding: 10px;
+                    border: 1px solid gainsboro;
+                    height: 100%;
+                    background-color: white;
+
+                }
+                li:hover{
+                    color: white;
+                }
+            }
+        // }
+    }
+}

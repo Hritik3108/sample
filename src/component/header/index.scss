@@ -1,0 +1,31 @@
+.upper-header-container{
+    .header-row{
+        .logo-img-div{
+            position: fixed;
+            left: 200dvh;
+            top: 10px;
+            font-size: 40px;
+        }
+        .logo-text-div{
+            position: fixed;
+            left: 200.5dvh;
+            top: 60px;
+            font-size: 10px;
+        }
+        .logo-title-div{
+            margin-left: 20px;
+        }
+    }
+
+    #btn-row{
+        margin-bottom: 4px;
+        .btn-col{
+            display: flex;
+            flex-direction: row-reverse;
+            button{
+                margin: 4px;
+            }
+        }
+        
+    }
+}
