@@ -17,7 +17,7 @@ app.use(cors({
     origin: 'http://localhost:5173',
   }))
 
-mongoose.connect('mongodb+srv://root:root@cluster0.sdvyxaw.mongodb.net/');  
+mongoose.connect('');  
 
 const db=mongoose.connection;
 db.on('open',()=>{
